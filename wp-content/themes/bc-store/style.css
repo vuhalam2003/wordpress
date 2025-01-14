@@ -1,0 +1,399 @@
+/*
+Theme Name: BC Store
+Author: aThemeArt
+Author URI: https://athemeart.com/
+Theme URI: https://athemeart.com/downloads/bc-shop-child-theme-of-bc-business-consulting/
+Description: Elevate your eCommerce website with BC Store, a sleek and trendy multipurpose WooCommerce theme designed for businesses of all kinds. Its fully responsive layout ensures your site looks its best across devices, maximizing your brand’s online appearance and boosting the customer experience. The theme is compatible with leading page builders like Gutenberg, Elementor, and WPBakery, offering seamless configuration options to create a stylish design tailored to your needs. Whether you sell jewelry, candles, t-shirts, or digital downloads, BC Store’s versatile product catalog suits any niche. Optimize your store with visually engaging features and intuitive settings that prioritize user experience and user interface. From browsing to checkout, customers enjoy a smooth journey enhanced by a secure shopping cart, fast checkout process, and reliable shipping and delivery options. BC Store’s flexible aesthetics and trendy layout let you showcase your products with style while its robust tools streamline order fulfillment and ensure secure payment processes. Perfect for furniture, haircare, books, and more, this WordPress shop theme supports growing businesses with scalable solutions.
+Template: bc-consulting
+Version: 1.0.1
+Requires at least: 5.0
+Tested up to: 5.8
+Requires PHP: 7.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, sticky-post, custom-background, custom-header, custom-colors, custom-menu, featured-images, full-width-template, translation-ready, theme-options, threaded-comments, custom-logo, blog, e-commerce
+Text Domain: bc-store
+*/
+
+/*==========================================================
+********************** Pagination ******************** 
+'Josefin Sans',sans-serif
+
+===========================================================*/ 
+
+:root {
+	--primary-color:#555;
+	--secondary-color:#1e73be;
+	--tertiary-color: #000;
+
+	--nav-color:#000;
+	--nav-h-color:#1e73be;
+	
+
+	--body-font:'Raleway', sans-serif;
+	--heading-font:'Josefin Sans', sans-serif;
+	--nav-font:'Josefin Sans', sans-serif;
+  }
+
+#navbar.bc-store{
+	background:none;
+}  
+#navbar.bc-store .nav.navbar-nav > li > a,
+#navbar ul.header-icon li a{
+	color: var(--nav-color);
+	font-family: "Josefin Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	text-transform: capitalize;
+	font-size: 16px;
+	padding: 5px 10px;
+	border-radius: 2px;
+	transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+}
+#navbar.bc-store .nav.navbar-nav > li > a:hover,
+#navbar.bc-store .nav.navbar-nav > li > a:focus{
+	background: var(--nav-h-color);
+	color: #fff;
+}
+.ow-navigation .dropdown .dropdown-menu li a{
+	font-family: "Josefin Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	text-transform: capitalize;
+}
+
+#navbar ul.header-icon li a:hover,
+#navbar ul.header-icon li a:focus{
+	color: var(--nav-h-color);
+	text-decoration: underline;
+}
+.widget-title:before, 
+#secondary .wp-block-heading:before,
+#colophon .widget .widget-title:before {
+	background: var(--secondary-color);
+}
+#static_header_banner .site-header-text-wrap{
+	/*text-align: center;
+	justify-content: center;*/
+	text-transform: capitalize;
+}
+#static_header_banner .site-header-text-wrap h1{
+	text-transform: capitalize;
+	color: #555;
+	font-size: 36px;
+}
+#static_header_banner{
+  padding: 30px 0;
+  background: #f5f5f5;
+  border-top: solid 1px #eaeaea;
+  border-bottom: solid 1px #eaeaea;
+}
+#static_header_banner::after {
+   display: none;
+}
+#navbar:after {
+   display: none;
+}
+#static_header_banner .site-header-text-wrap{
+   height:auto;
+   min-height: 100px;
+}
+#static_header_banner .site-header-text-wrap{
+	padding-top: 0px;
+}
+#top-bar-wrap{
+	background: #f5f5f5;
+	border-bottom: solid 1px #eaeaea;
+}
+.navigation.pagination .nav-links{
+	display: block;
+	width: 100%;
+}
+.woocommerce-pagination{
+	clear: both;
+}
+.navigation.pagination ul,
+ul.page-numbers {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+	flex-shrink: 0;
+	align-items: center;
+	justify-content: center;
+}
+.navigation.pagination a, .navigation.pagination span,
+ul.page-numbers a,ul.page-numbers span {
+	font-size: 14px;
+	padding: 13px 20px;
+	color: #323232;
+	border: 1px solid var(--secondary-color);
+	font-family: var(--heading-font);
+	text-transform: uppercase;
+	border-right: none;
+}
+.navigation.pagination li:last-child a,
+ul.page-numbers li:last-child a{
+	border-right: 1px solid var(--secondary-color);
+}
+.navigation.pagination a:hover, 
+.navigation.pagination a:focus,
+.navigation.pagination span.current,
+ul.page-numbers a:hover, 
+ul.page-numbers a:focus,
+ul.page-numbers span.current{
+	background: var(--secondary-color);
+	color: var(--quaternary-color);
+}
+
+
+.single_add_to_cart_button,
+.woocommerce-form-track-order button{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	padding: 12px 22px;
+	font-family: inherit;
+	color: var(--quaternary-color );
+	background: var(--secondary-color);
+	border:1px solid var(--secondary-color);
+	position: relative;
+	padding-right: 50px;
+	display: inline-block;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.single_add_to_cart_button:after{
+	content: "\f07a";
+	position:absolute;
+	font-family:'Font Awesome 6 Free',sans-serif;
+	right:25px;
+	font-size:inherit;
+	top:54%;
+	font-weight: 900;
+	margin-top: -14px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	font-size: 15px;
+}
+
+.single_add_to_cart_button:hover,
+.single_add_to_cart_button:focus,
+.woocommerce-form-track-order button:hover,
+.woocommerce-form-track-order button:focus{
+	background:none;
+	color: var(--secondary-color);
+}
+.cart.grouped_form .single_add_to_cart_button{
+	
+}
+.related h2{
+	position: relative;
+	text-transform: capitalize;
+	padding-bottom: 10px;
+	margin: 0;
+	margin-bottom: 0px;
+	margin-bottom: 25px;
+	font-size: 26px;
+}
+.related h2:before {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+	width: 20px;
+	height: 2px;
+	background-color: var( --secondary-color );
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+
+/*==========================================================
+********************** Comment Form ********************
+===========================================================*/ 
+
+.comment-form .form-control,
+.comment-respond .form-control,
+#review_form_wrapper .comment-form-author input,
+#review_form_wrapper .comment-form-email input,
+#review_form_wrapper .comment-form-comment textarea,
+.wpcf7 .form-control,
+.wpcf7 input,
+.woocommerce-form-track-order input{
+	color: #222;
+	padding-left: 0;
+	min-height: 40px;
+	outline: none;
+	box-shadow: none;
+	border-radius: 0;
+	border: none;
+	border-bottom: 2px solid #e5e5e5;
+	background-color: transparent;
+	font-size: 12px;
+	letter-spacing: 0.77px;
+	position: relative;
+	text-transform: uppercase;
+	z-index: 1;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	position: relative;
+	width: 100%;
+}
+#review_form_wrapper .comment-form-rating label,
+.woocommerce div.product .woocommerce-tabs .panel label{
+	font-size: 12px;
+	letter-spacing: 0.77px;
+	text-transform: uppercase;
+	padding-top: 4px;
+}
+.comment-form .form-control:focus,
+.comment-respond .form-control:focus,
+#review_form_wrapper .comment-form-author input:focus,
+#review_form_wrapper .comment-form-email input:focus,
+#review_form_wrapper .comment-form-comment textarea:focus,
+.wpcf7 .form-control:focus,
+.wpcf7 input:focus,
+.woocommerce-form-track-order input:focus{
+	border-color: #000;
+}
+.comment-form input[type="submit"],
+.comment-respond input[type="submit"]{ 
+	color: #fafbfc;
+	display: inline-block;
+	font-weight: 700;
+	padding: 10px 37px;
+	margin-top: 15px;
+	text-transform: uppercase;
+	border: none;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.comment-form input[type="submit"]:hover,
+.comment-respond input[type="submit"]:hover {
+	color: #fafbfc;
+	background-color: #222;
+}
+.blogpost.latest-blog .section-padding:last-of-type {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#respond.comment-respond{
+	padding-bottom: 50px;
+}
+#respond.comment-respond small,
+.comment-form small{
+	font-size: 14px;
+}
+#review_form_wrapper .comment-form .comment-form-cookies-consent{
+	display: flex!important;
+	margin-left: 0px;
+	padding-left: 0px!important;
+	transform: translate(0,0px)!important;
+	padding-top: 0px!important;
+}
+.woocommerce div.product .woocommerce-tabs #review_form p{
+	margin-bottom: 0px!important;
+	padding: 0px!important
+}
+.woocommerce div.product .woocommerce-tabs .comment-form-rating{
+	display: block;
+	clear: both;
+	height: 50px;
+}
+.woocommerce div.product .woocommerce-tabs #review_form p.comment-notes{
+	margin-bottom: 20px!important;
+}
+.woocommerce .product .product_meta span:last-child{
+	border:none!important;
+	border-color: #F4F4F4;
+}
+.woocommerce .product .product_meta > span:first-child{
+	border-top: 1px solid #dbdbdb!important;
+	margin-top: 20px;
+}
+.wc-block-components-button{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	padding: 6px 22px;
+	font-family: inherit;
+	color: var(--quaternary-color );
+	background: var(--secondary-color);
+	border:1px solid var(--secondary-color);
+	position: relative;
+	display:block;
+}
+.wc-block-checkout__actions_row .wc-block-components-button{
+	max-width: 250px;
+}
+.wc-block-components-button:after{
+	content: "\f178";
+	position:absolute;
+	font-family:'Font Awesome 6 Free',sans-serif;
+	right:25px;
+	font-size:inherit;
+	top:50%;
+	font-weight: 900;
+	margin-top: -14px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.wc-block-components-button:hover,
+.wc-block-components-button:focus{
+	background:none;
+	color: var(--secondary-color);
+}
+.wc-block-components-button:hover:after,
+.wc-block-components-button:focus:after{
+	right: 10px;
+}
+#brand-wrap{
+	padding: 50px 0px;
+}
+#brand-wrap.header-layout-1 #navbar{
+	position: static;
+}
+#brand-wrap.header-layout-1 ul.header-icon{
+	margin-left: 0 !important;
+}
+#top-bar-wrap ul.social{
+	padding-top: 10px;
+}
+.sidebar .wp-block-search .wp-block-search__button {
+	height: 48px;
+}
+.widget-title{
+	position: relative;
+}

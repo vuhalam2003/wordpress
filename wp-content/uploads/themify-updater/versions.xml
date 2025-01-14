@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<versions>
+	<version name="themify-ptb" type="plugin" promo_name="post-type-builder">2.2.2</version>
+	<version name="themify-ptb-search" type="plugin" promo_name="search">2.1.3</version>
+	<version name="themify-ptb-submissions" type="plugin" promo_name="submissions">2.1.9</version>
+	<version name="themify-ptb-relation" type="plugin" promo_name="relation">2.0.7</version>
+	<version name="themify-ptb-map-view" type="plugin" promo_name="map-view">2.0.7</version>
+	<version name="builder-masked-image" type="plugin" promo_name="masked-image" stable_back_version="2.0.3" skip_version_start="1.0.7" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.2</version>
+	<version name="builder-slideshow" type="plugin" promo_name="slideshow" stable_back_version="2.0.4" skip_version_start="1.1.2" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.2</version>
+	<version name="builder-typewriter" type="plugin" promo_name="typewriter" stable_back_version="2.0.5" skip_version_start="1.1.5" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.2</version>
+	<version name="builder-bg-video-slider" type="plugin" promo_name="bg-video-slider" stable_back_version="2.0.4" skip_version_start="1.1.2" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.2</version>
+	<version name="builder-infinite-posts" type="plugin" promo_name="infinite-posts" stable_back_version="2.0.4" skip_version_start="1.1.6" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.4</version>
+	<version name="builder-image-pro" type="plugin" promo_name="image-pro" stable_back_version="2.1.2" skip_version_start="1.3.2" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.5</version>
+	<version name="builder-slider-pro" type="plugin" promo_name="slider-pro" stable_back_version="2.1.6" skip_version_start="1.4.1" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.3</version>
+	<version name="builder-infinite-background" type="plugin" promo_name="infinite-background" stable_back_version="2.0.3" skip_version_start="1.1.6" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.2</version>
+	<version name="builder-pricing-table" type="plugin" promo_name="pricing-table" stable_back_version="2.0.2" skip_version_start="1.1.9" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.2</version>
+	<version name="builder-content-restriction" type="plugin" promo_name="content-restriction" stable_back_version="2.0.2" skip_version_start="1.1.3" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.3</version>
+	<version name="builder-maps-pro" type="plugin" promo_name="maps-pro" stable_back_version="2.0.6" skip_version_start="1.3.8" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.5</version>
+	<version name="builder-countdown" type="plugin" promo_name="countdown" stable_back_version="2.0.4" skip_version_start="1.2.1" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.2</version>
+	<version name="builder-tiles" type="plugin" promo_name="tiles" stable_back_version="2.0.9" skip_version_start="1.4.6" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.3</version>
+	<version name="builder-pointers" type="plugin" promo_name="pointers" stable_back_version="2.0.6" skip_version_start="1.2.1" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.3</version>
+	<version name="builder-progress-bar" type="plugin" promo_name="progress-bar" stable_back_version="2.0.3" skip_version_start="1.2.0" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.4</version>
+	<version name="builder-fittext" type="plugin" promo_name="fittext" stable_back_version="2.0.4" skip_version_start="1.1.9" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.2</version>
+	<version name="builder-counter" type="plugin" promo_name="counter" stable_back_version="2.0.3" skip_version_start="1.2.3" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.4</version>
+	<version name="builder-contact" type="plugin" promo_name="contact" stable_back_version="2.2.3" skip_version_start="1.4.7" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.7</version>
+	<version name="builder-button" type="plugin" promo_name="button" stable_back_version="2.0.4" skip_version_start="1.3.2" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.3</version>
+	<version name="builder-ab-image" type="plugin" promo_name="ab-image" stable_back_version="2.0.6" skip_version_start="1.2.0" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.2</version>
+	<version name="builder-timeline" type="plugin" promo_name="timeline" stable_back_version="2.0.2" skip_version_start="1.2.4" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.2</version>
+	<version name="builder-woocommerce" type="plugin" promo_name="woocommerce" stable_back_version="2.1.0" skip_version_start="1.4.6" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.9</version>
+	<version name="builder-audio" type="plugin" promo_name="audio" stable_back_version="2.0.4" skip_version_start="1.2.5" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.3</version>
+	<version name="builder-toggle" type="plugin" promo_name="toggle" stable_back_version="3.5.0" skip_version_start="3.5.0" skip_version_end="3.5.0" stop_auto_update="3.5.0">3.5.3</version>
+	<version name="builder-mosaic" type="plugin" promo_name="mosaic" stable_back_version="2.0.8" skip_version_start="1.1.3" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.5.4</version>
+	<version name="themify-builder" type="plugin" promo_name="builder" stable_back_version="5.4.2" skip_version_start="4.7.4" skip_version_end="7.4.9" stop_auto_update="7.5.0" free="true" wp_hosted="true">7.6.6</version>
+	<version name="themify-builder-pro" type="plugin" promo_name="builder-pro" stable_back_version="2.3.2" skip_version_start="1.1.0" skip_version_end="3.4.9" stop_auto_update="3.5.0">3.6.9</version>
+	<version name="themify-builder-beta" type="plugin" free="true">4.5.1</version>
+	<version name="themify-builder-data-correction" type="plugin">1.0.0</version>
+	<version name="builder-data-migrator" type="plugin" free="true">1.0.0</version>
+	<version name="themify-icons" type="plugin" promo_name="themify-icons" free="true" wp_hosted="true">2.0.3</version>
+	<version name="themify-event-post" type="plugin" promo_name="event-post" free="true" wp_hosted="true">1.3.2</version>
+	<version name="themify-store-locator" type="plugin" promo_name="store-locator" free="true" wp_hosted="true">1.2.0</version>
+	<version name="themify-wc-product-filter" type="plugin" promo_name="themify-product-filter" free="true" wp_hosted="true">1.5.2</version>
+	<version name="themify-popup" type="plugin" promo_name="popup" free="true" wp_hosted="true">1.4.2</version>
+	<version name="themify-audio-dock" type="plugin" promo_name="audio-dock" stable_back_version="2.0.2" skip_version_start="1.0.6" skip_version_end="3.4.9" free="true" wp_hosted="true">2.0.5</version>
+	<version name="woocommerce-shopdock" type="plugin" promo_name="woocommerce-shopdock">1.2.4</version>
+	<version name="themify-shortcodes" type="plugin" free="true" wp_hosted="true">2.1.3</version>
+	<version name="themify-portfolio-post" type="plugin" promo_name="portfolio-post-type" free="true" wp_hosted="true">1.2.9</version>
+	<version name="themify-tiles" type="plugin" promo_name="tiles-plugin">1.3.0</version>
+	<version name="conditional-menus" type="plugin" promo_name="conditional-menus" free="true" wp_hosted="true">1.2.5</version>
+	<version name="announcement-bar" type="plugin" promo_name="announcement-bar">2.2.0</version>
+	<version name="themify-updater" type="plugin" promo_name="themify-updater" free="true">1.4.8</version>
+	<version name="themify-ultra" type="theme" promo_name="ultra" stable_back_version="7.4.1" skip_version_start="2.8.3" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.8.6</version>
+	<version name="themify-shoppe" type="theme" promo_name="shoppe" stable_back_version="7.4.0" skip_version_start="2.0.2" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.8.3</version>
+	<version name="themify-peak" type="theme" promo_name="peak" stable_back_version="7.1.9" skip_version_start="1.8.5" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.9</version>
+	<version name="themify-simple" type="theme" promo_name="simple" stable_back_version="7.1.6" skip_version_start="1.8.5" skip_version_end="7.4.9" stop_auto_update="7.5.0" free="true">7.6.2</version>
+	<version name="themify-infinite" type="theme" promo_name="infinite" stable_back_version="7.1.5" skip_version_start="1.9.2" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.9</version>
+	<version name="themify-split" type="theme" promo_name="split" stable_back_version="7.2.0" skip_version_start="2.1.4" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.6.7</version>
+	<version name="themify-landing" type="theme" promo_name="landing" stable_back_version="7.1.9" skip_version_start="2.0.4" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.6.2</version>
+	<version name="themify-elegant" type="theme" promo_name="elegant" stable_back_version="7.1.8" skip_version_start="2.0.7" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.6.1</version>
+	<version name="themify-corporate" type="theme" promo_name="corporate" stable_back_version="7.1.8" skip_version_start="2.2.3" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.6.1</version>
+	<version name="themify-music" type="theme" promo_name="music" stable_back_version="7.2.6" skip_version_start="2.3.9" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.8.1</version>
+	<version name="themify-stack" type="theme" promo_name="stack" stable_back_version="7.1.9" skip_version_start="2.1.4" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.6.1</version>
+	<version name="themify-float" type="theme" promo_name="float" stable_back_version="7.1.8" skip_version_start="1.8.0" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.6.1</version>
+	<version name="event" type="theme" promo_name="event" stable_back_version="7.1.3" skip_version_start="2.3.3" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.7</version>
+	<version name="fullpane" type="theme" promo_name="fullpane" stable_back_version="7.2.7" skip_version_start="2.6.4" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.8.1</version>
+	<version name="flatshop" type="theme" promo_name="flatshop" stable_back_version="7.1.4" skip_version_start="2.5.5" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.8</version>
+	<version name="magazine" type="theme" promo_name="magazine" stable_back_version="7.1.5" skip_version_start="2.4.1" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.9</version>
+	<version name="flat" type="theme" promo_name="flat" stable_back_version="7.1.5" skip_version_start="3.2.5" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.7</version>
+	<version name="parallax" type="theme" promo_name="parallax" stable_back_version="7.2.5" skip_version_start="2.9.5" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.8.3</version>
+	<version name="bold" type="theme" promo_name="bold" stable_back_version="7.1.3" skip_version_start="2.4.4" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="metro" type="theme" promo_name="metro" stable_back_version="7.1.4" skip_version_start="2.7.4" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.8</version>
+	<version name="pinshop" type="theme" promo_name="pinshop" stable_back_version="7.1.3" skip_version_start="2.8.2" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="agency" type="theme" promo_name="agency" stable_back_version="7.1.4" skip_version_start="2.5.0" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.6.0</version>
+	<version name="postline" type="theme" promo_name="postline" stable_back_version="7.1.4" skip_version_start="2.5.6" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="fullscreen" type="theme" promo_name="fullscreen" stable_back_version="7.1.4" skip_version_start="2.4.8" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="pinboard" type="theme" promo_name="pinboard" stable_back_version="7.1.3" skip_version_start="2.8.2" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.7</version>
+	<version name="minshop" type="theme" promo_name="minshop" stable_back_version="7.1.4" skip_version_start="2.7.3" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.7</version>
+	<version name="notes" type="theme" promo_name="notes" stable_back_version="7.1.4" skip_version_start="2.3.7" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="shopdock" type="theme" promo_name="shopdock" stable_back_version="7.1.3" skip_version_start="2.7.5" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.7</version>
+	<version name="phototouch" type="theme" promo_name="phototouch" stable_back_version="7.1.3" skip_version_start="2.4.3" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="basic" type="theme" promo_name="basic" stable_back_version="7.1.7" skip_version_start="2.4.3" skip_version_end="7.4.9" stop_auto_update="7.5.0" free="true">7.6.2</version>
+	<version name="responz" type="theme" promo_name="responz" stable_back_version="7.1.3" skip_version_start="2.5.0" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.7</version>
+	<version name="simfo" type="theme" promo_name="simfo" stable_back_version="7.1.4" skip_version_start="2.5.2" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="grido" type="theme" promo_name="grido" stable_back_version="7.1.3" skip_version_start="2.5.4" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="tisa" type="theme" promo_name="tisa" stable_back_version="7.1.3" skip_version_start="2.5.2" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="suco" type="theme" promo_name="suco" stable_back_version="7.1.3" skip_version_start="2.6.2" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="elemin" type="theme" promo_name="elemin" stable_back_version="7.1.3" skip_version_start="2.6.9" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="funki" type="theme" promo_name="funki" stable_back_version="7.1.3" skip_version_start="2.6.4" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="minblr" type="theme" promo_name="minblr" stable_back_version="7.1.3" skip_version_start="2.6.5" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="itheme2" type="theme" promo_name="itheme2" stable_back_version="7.1.5" skip_version_start="2.6.8" skip_version_end="7.4.9" stop_auto_update="7.5.0" free="true">7.6.0</version>
+	<version name="wumblr" type="theme" promo_name="wumblr" stable_back_version="7.1.3" skip_version_start="2.7.5" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="bizco" type="theme" promo_name="bizco" stable_back_version="7.1.3" skip_version_start="2.7.0" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="thememin" type="theme" promo_name="thememin" stable_back_version="7.1.3" skip_version_start="2.8.4" skip_version_end="7.4.9" stop_auto_update="7.5.0">7.5.5</version>
+	<version name="themify-base" type="theme" promo_name="base" free="true" wp_hosted="true">7.1.1</version>
+	<version name="themify-beta" type="theme" free="true">7.5.0</version>
+	<version name="themify-shoppe-beta" type="theme" free="true">1.3.2</version>
+	<version name="themify" type="theme" free="true">7.1.1</version>
+</versions>

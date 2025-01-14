@@ -1,0 +1,85 @@
+body {
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	font-family: var(--body-font);
+	font-size:100%;
+	line-height:1.8;
+	font-weight:400;
+	color: var( --primary-color);
+	background:#fff;
+	text-align:left;
+	font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6,#review_form .comment-reply-title{
+	font-family: var(--heading-font);
+	font-weight:500;
+	color: var(--heading-color);
+}
+
+
+a{
+	color: var( --secondary-color );
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+a:hover,
+a:focus{
+  color: var(--tertiary-color);
+  text-decoration:none;
+  
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h4, .h4 {
+	font-size: 1.4rem;
+}
+.theme-btn{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	padding: 6px 22px;
+	font-family: inherit;
+	color: var(--quaternary-color );
+	background: var(--secondary-color);
+	border:1px solid var(--secondary-color);
+	position: relative;
+	padding-right: 50px;
+	display: inline-block;
+}
+.theme-btn:after{
+	content: "\f178";
+	position:absolute;
+	font-family:'Font Awesome 6 Free',sans-serif;
+	right:25px;
+	font-size:inherit;
+	top:50%;
+	font-weight: 900;
+	margin-top: -14px;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+.theme-btn:hover,
+.theme-btn:focus{
+	background:none;
+	color: var(--secondary-color);
+}
+.theme-btn:hover:after,
+.theme-btn:focus:after{
+	right: 10px;
+}

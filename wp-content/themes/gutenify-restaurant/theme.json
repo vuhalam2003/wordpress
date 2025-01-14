@@ -1,0 +1,444 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#000",
+					"name": "Foreground",
+					"slug": "foreground"
+				},
+				{
+					"color": "#fff",
+					"name": "Background",
+					"slug": "background"
+				},
+				{
+					"color": "#df6b3a",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#6c8572",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#fef7f3",
+					"name": "Secondary Background",
+					"slug": "background-secondary"
+				},
+				{
+					"color": "#fff",
+					"name": "Button color Hover",
+					"slug": "button-color-hover"
+				},
+				{
+					"color": "#888",
+					"name": "Body Text",
+					"slug": "body-text"
+				},
+				{
+					"color": "#000",
+					"name": "Text Link",
+					"slug": "text-link"
+				},
+				{
+					"color": "#f2f2f2",
+					"name": "Border",
+					"slug": "border"
+				},
+				{
+					"color": "#fff5f5",
+					"name": "Input Field",
+					"slug": "input-field"
+				},
+				{
+					"color": "#1A5590",
+					"name": "Blue",
+					"slug": "blue"
+				},
+				{
+					"color": "#333333",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#777",
+					"name": "Boulder",
+					"slug": "boulder"
+				},
+				{
+					"color": "#7d6043",
+					"name": "coffee",
+					"slug": "coffee"
+				},
+				{
+					"color": "#25d6a2",
+					"name": "Cyan",
+					"slug": "cyan"
+				},
+				{
+					"color": "#1D1634",
+					"name": "Dark Blue",
+					"slug": "dark-blue"
+				},
+				{
+					"color": "#30b4da",
+					"name": "Sky Blue",
+					"slug": "sky-blue"
+				},
+				{
+					"color": "#0fb36c",
+					"name": "Dark Green",
+					"slug": "dark-green"
+				},
+				{
+					"color": "#6ba518",
+					"name": "Lite Green",
+					"slug": "lite-green"
+				},
+				{
+					"color": "#c74a73",
+					"name": "Purple",
+					"slug": "purple"
+				},
+				{
+					"color": "#9261c6",
+					"name": "Dark Purple",
+					"slug": "dark-purple"
+				},
+				{
+					"color": "#f78550",
+					"name": "Orange",
+					"slug": "orange"
+				},
+				{
+					"color": "#f9556d",
+					"name": "Lite Red",
+					"slug": "lite-red"
+				},
+				{
+					"color": "#27808c",
+					"name": "Hexadecimal",
+					"slug": "hexadecimal"
+				},
+				{
+					"color": "#ff6b98",
+					"name": "Pink",
+					"slug": "pink"
+				},
+				{
+					"color": "#fcd576",
+					"name": "Button Primary",
+					"slug": "button-primary"
+				},
+				{
+					"color": "#b7e3db",
+					"name": "Secondary dark Background",
+					"slug": "background-secondary-dark"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "750px",
+		   "wideSize": "1300px"
+		  },
+		"typography": {
+			"dropCap": false,
+			"fontFamilies": [
+				{
+					"fontFamily": "\"CormorantGaramond\", serif",
+					"name": "CormorantGaramond",
+					"slug": "cormorant-garamond",
+					"fontFace": [
+						{
+							"fontFamily": "CormorantGaramond",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/CormorantGaramond-Light.ttf"
+							]
+						},
+						{
+							"fontFamily": "CormorantGaramond",
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/CormorantGaramond-Lightitalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "CormorantGaramond",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/CormorantGaramond-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "CormorantGaramond",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/CormorantGaramond-Italic.ttf"
+							]
+						},
+						{
+							"fontFamily": "CormorantGaramond",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/CormorantGaramond-Medium"
+							]
+						},
+						{
+							"fontFamily": "CormorantGaramond",
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/CormorantGaramond-MediumItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "CormorantGaramond",
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/CormorantGaramond-SemiBold.ttf"
+							]
+						},
+						{
+							"fontFamily": "CormorantGaramond",
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/CormorantGaramond-SemiBoldItalic.ttf"
+							]
+						},
+						{
+							"fontFamily": "CormorantGaramond",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/CormorantGaramond-Bold.ttf"
+							]
+						},
+						{
+							"fontFamily": "CormorantGaramond",
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/CormorantGaramond-BoldItalic.ttf"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Jost\", sans-serif",
+					"name": "Jost",
+					"slug": "jost",
+					"fontFace": [
+						{
+							"fontFamily": "Jost",
+							"fontWeight": "100 200 300 400 500 600 700 800 900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/jost/Jost-VariableFont_wght.woff2"
+							]
+						},
+						{
+							"fontFamily": "Jost",
+							"fontWeight": "100 200 300 400 500 600 700 800 900",
+							"fontStyle": "italic",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/jost/Jost-Italic-VariableFont_wght.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Roboto\", serif",
+					"name": "Roboto",
+					"slug": "roboto",
+					"fontFace": [
+						{
+							"fontFamily": "Roboto",
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/roboto/Roboto-Light.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/roboto/Roboto-Regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/roboto/Roboto-Medium.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/roboto/Roboto-Bold.woff2"
+							]
+						},
+						{
+							"fontFamily": "Roboto",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"src": [
+								"file:./assets/fonts/roboto/Roboto-Black.woff2"
+							]
+						}
+					]
+				}			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+			"variations": {
+				"outline": {
+					"color": {
+						"text": "var(--wp--preset--color--secondary)"
+					},
+		
+					"spacing": {
+						"padding": {
+							"bottom": "clamp(0.375rem, 0.288rem + 0.4348vw, 0.625rem)",
+							"left": "clamp(1.4375rem, 1.3288rem + 0.5435vw, 1.75rem)",
+							"right": "clamp(1.4375rem, 1.3288rem + 0.5435vw, 1.75rem)",
+							"top": "clamp(0.375rem, 0.288rem + 0.4348vw, 0.625rem)"
+						}
+					}
+				
+				}
+			}
+		},
+			"core/heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|cormorant-garamond",
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				}
+			}
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--foreground)"
+				},
+				"typography": {
+					"textDecoration": "none"
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "none"
+					},
+					"color": {
+						"text": "var(--wp--preset--color--primary)"
+					}
+				},
+				":focus": {
+					"typography": {
+						"textDecoration": "none"
+					},
+					"color": {
+						"text": "var(--wp--preset--color--primary)"
+					}
+				},
+				":active": {
+					"color": {
+						"text": "var(--wp--preset--color--primary)"
+					},
+					"typography": {
+						"textDecoration": "none"
+					}
+				}
+			},
+			"button": {
+				"spacing": {
+					"padding": {
+						"left": "clamp(1.5625rem, 1.4538rem + 0.5435vw, 1.875rem)",
+						"right": "clamp(1.5625rem, 1.4538rem + 0.5435vw, 1.875rem)",
+						"top": "clamp(0.5rem, 0.413rem + 0.4348vw, 0.75rem)",
+						"bottom": "clamp(0.5rem, 0.413rem + 0.4348vw, 0.75rem)"
+					}
+				},
+				"border": {
+					"radius": "0",
+					"width": "0px"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--white)"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--secondary)",
+						"text": "var(--wp--preset--color--white)"
+					}
+				},
+				":focus": {
+					"color": {
+						"background": "var(--wp--preset--color--secondary)",
+						"text": "var(--wp--preset--color--white)"
+					}
+				},
+				":active": {
+					"color": {
+						"background": "var(--wp--preset--color--secondary)",
+						"text": "var(--wp--preset--color--white)"
+					}
+				},
+				":visited": {
+					"color": {
+						"background": "var(--wp--preset--color--primary)",
+						"text": "var(--wp--preset--color--white)"
+					}
+				},
+				"typography": {
+					"lineHeight": "1.7",
+					"fontSize": "var(--wp--preset--font-size--small)",
+					"fontWeight": "var(--wp--custom--typography--font-weight--medium)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--jost)",
+		"fontSize": "17px",
+		"fontWeight": "var(--wp--custom--typography--font-weight--normal)"
+		}
+	}
+}
